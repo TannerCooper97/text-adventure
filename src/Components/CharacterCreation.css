@@ -1,0 +1,30 @@
+#ClassHeader{
+    display: flex;
+    justify-content: center;
+}
+
+#Classes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+}
+
+.ClassOptions{
+    text-align: center;
+    margin: 40px;
+    padding: 30px;
+}
+
+#Mage{
+    background-color: #B22222;
+    
+}
+
+#Pally{
+    background-color: rgb(255,255,102);
+}
+
+#Rogue{
+    background-color: rgba(30, 130, 76, 1);
+}

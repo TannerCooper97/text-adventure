@@ -1,51 +1,63 @@
 let Class = {
 
-    Mage: {
+    mage: {
 
     className: 'Mage',
 
-    Health: 10,
+    health: 10,
 
-    Gold: 3,
+    gold:  3,
 
-    attacks:{
-
-        
-        Fireball: ['FireBall:', 30],
-        ArcaneBlast: ['ArcaneBlast:',15]
-
-    }
+    attacks:[
+        {
+            name: 'Fireball',
+            dmg: 30,
+        },
+        {
+            name: 'ArcaneBlast',
+            dmg: 15,
+        }
+    ]
 },
 
-    Pally: {
+    pally: {
 
-        ClassName: 'Paladin',
+        className: 'Paladin',
 
-        Health: 20,
+        health:  20,
 
-        Gold: 5,
+        gold:  0,
 
-        attacks: {
-
-            HolyStrike: 20,
-            LightHeal: 10
-            
-   }
+        attacks:[
+            {
+                name: 'Holy Fire',
+                dmg: 25,
+            },
+            {
+                name: 'Light Heal',
+                dmg: 10,
+            }
+        ]
 },
 
-    Rogue: {
+    rogue: {
 
-        ClassName: 'Rogue',
+        className: 'Rogue',
 
-        Health: 15,
+        health:  15,
 
-        Gold: 15,
+        gold:  10,
 
-        attacks:{
-
-            Ambush: 50,
-            Poison: 5
-    }
+        attacks:[
+            {
+                name: 'Ambush',
+                dmg: 40,
+            },
+            {
+                name: 'Poison',
+                dmg: 5,
+            }
+        ]
 }
 }
 

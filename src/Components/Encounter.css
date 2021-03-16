@@ -1,0 +1,37 @@
+.EncounterStyles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#EncounterMessage{
+    padding: 50px;
+    background-color: orange;
+    text-align: center;
+}
+
+.Doors{
+    padding: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 50px;
+    background-color: #654321;
+}
+
+#DoorShadow :hover{
+    -webkit-box-shadow: 16px -3px 8px 5px rgba(0,0,0,0.66); 
+box-shadow: 16px -3px 8px 5px rgba(0,0,0,0.66);
+}
+
+#newCharacter{
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(131, 132, 246);
+    margin-top: 50px;
+}
+
+.attackButtons{
+    padding: 10px;
+    margin: 10px;
+}
